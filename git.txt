@@ -1,0 +1,12 @@
+1. Iniciar/ git init
+2. Deberiamos decirle cual es el repositorio en github o el proyecto
+git remote add origin https://github.com/yamilaflo/agwebsite.git
+
+---
+los primeros dos pasos se ejecutan una sola vez por proyeto
+-----
+
+3. Deberias agregarnos nuestros cambios
+git add .
+4. Deberiamos commitear (o poner version)
+5. Deberiamos pushear (subir)
