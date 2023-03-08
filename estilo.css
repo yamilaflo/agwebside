@@ -282,3 +282,15 @@ footer a {
   height: 680px;
   background-size: cover;
 }
+@media (max-width: 321px) {
+  .fonts {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+.seg_parrafo {
+  text-align: center;
+}
+.pie {
+  font-size: 10px;
+}

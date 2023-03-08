@@ -1,6 +1,6 @@
 1. Iniciar/ git init
 2. Deberiamos decirle cual es el repositorio en github o el proyecto
-git remote add origin https://github.com/yamilaflo/agwebsite.git
+git remote add origin git@github.com:yamilaflo/agwebsite.gitg
 2 (bis) crear la rama por primera vez
 git branch -M main
 ---
