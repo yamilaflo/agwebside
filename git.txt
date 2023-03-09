@@ -1,13 +1,13 @@
 1. Iniciar/ git init
 2. Deberiamos decirle cual es el repositorio en github o el proyecto
-git remote add origin git@github.com:yamilaflo/agwebsite.gitg
+git remote add origin git@github.com:yamilaflo/agwebsite.git
 2 (bis) crear la rama por primera vez
 git branch -M main
 ---
 los primeros dos pasos se ejecutan una sola vez por proyeto
 -----
 
-3. Deberias agregarnos nuestros cambios
+3. Debemos agregarnos nuestros cambios
 git add .
 4. Deberiamos commitear (o poner version)
 git commit -m "un mensaje"
