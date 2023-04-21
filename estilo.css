@@ -1,3 +1,6 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -63,7 +66,7 @@
   max-width: 1100px;
   margin: auto;
   padding: 100px 15px;
-  color: #111135;
+  color: #111135; 
   display: flex;
 }
 
@@ -330,8 +333,74 @@ gap: 50px;
   /* margin-left: 200px; */
 }
 .fonts {
+  color: #383838;
+  font-style: italic;
   margin-top: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  line-height: 120%;
 }
+
+
+/** seccion otros productos  **/
+ 
+.tit-productos {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
+.productos-main {
+  font-family: "Lato", sans-serif;
+}
+
+.portfolio-item {
+  overflow: hidden;
+  position: relative;
+}
+.portfolio-item img,
+.portfolio-item .portfolio-overlay {
+  transition: all 0.4s ease ease-in-out;
+}
+
+.portfolio-overlay {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(225, 156, 211, 0.9);
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+  opacity: 0;
+}
+
+.portfolio-item img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.4s ease;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+}
+
+.portfolio-overlay h3,
+.portfolio-overlay h6 {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+  opacity: 1;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.1);
+}
+
+
 
 
 @media (max-width: 769px){
