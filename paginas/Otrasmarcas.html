@@ -10,7 +10,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap" rel="stylesheet">
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -22,174 +22,213 @@
 
 <body>
   <header>
-  
-  <nav class="navbar navbar-expand-lg bg-white sticky-top">
-    <div class="container-fluid">
-      <img src="../img/logoag.jpeg" alt="Logo" width="120px">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Paginas
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="./Contacto.html">Contacto</a></li>
-              <li><a class="dropdown-item" href="./Otrasmarcas.html">Otras Marcas</a></li>
-              <li><a class="dropdown-item" href="./Productos.html">Productos</a></li>
-              <li><a class="dropdown-item" href="./SobreNosotros.html">Sobre Nosotros</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+<!-- 
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+      <div class="container-fluid">
+        <img src="../img/logoag.jpeg" alt="Logo" width="120px">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Paginas
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../paginas/contacto.html">Contacto</a></li>
+                <li><a class="dropdown-item" href="./Otrasmarcas.html">Otras Marcas</a></li>
+                <li><a class="dropdown-item" href="./Productos.html">Productos</a></li>
+                <li><a class="dropdown-item" href="./SobreNosotros.html">Sobre Nosotros</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
       </div>
-    </div>
-  </nav>
-</header>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-white fixed-top">
+      <div class="container-fluid">
+        <a href="../index.html">
+        <img src="../img/logoag.jpeg" alt="Logo" width="120px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Paginas
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../index.html">Home</a></li>
+                <li><a class="dropdown-item" href="../paginas/contacto.html">Contacto</a></li>
+                <li><a class="dropdown-item" href="../paginas/Productos.html">Productos</a></li>
+                <li><a class="dropdown-item" href="../paginas/SobreNosotros.html">Sobre Nosotros</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
 
 
   <!-- seccion otros productos -->
+  <main class="productos-main">
+    <h1 class="title-marcas">
+      Nuestros Productos
+    </h1>
 
-  <body class="productos-main">
-    <main>
-      <section id="portfolio" class="row g-0 py-0">
+    <section id="portfolio" class="row g-0 py-0">
 
 
 
-        <div class="col-lg-4 col-sm-6">
-          <div class="portfolio-item">
-            <img src="https://miin-cosmetics.com/blog/wp-content/uploads/argan.jpg" alt="" />
-            <div class="portfolio-overlay">
-              <div>
-                <h3>Argán</h3>
-                <h6>El aceite de argán se utiliza más a menudo para mantener hidratada y suave la piel. Debido a la gran
-                  cantidad y diversidad de ácidos grasos y vitamina E, este aceite es perfecto para cuidar la piel de
-                  forma natural.</h6>
-              </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="portfolio-item">
+          <img class="foto-prod" src="https://miin-cosmetics.com/blog/wp-content/uploads/argan.jpg" alt="" />
+          <div class="portfolio-overlay">
+            <div>
+              <h3 class="tit-productos">Argán</h3>
+              <h6>El aceite de argán se utiliza más a menudo para mantener hidratada y suave la piel. Debido a la gran
+                cantidad y diversidad de ácidos grasos y vitamina E, este aceite es perfecto para cuidar la piel de
+                forma natural.</h6>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="col-lg-4 col-sm-6 ">
-          <div class="portfolio-item">
-            <img src="https://e00-telva.uecdn.es/assets/multimedia/imagenes/2019/08/12/15656255518176.jpg" alt="" />
-            <div class="portfolio-overlay">
-              <div>
-                <h3>Coco</h3>
-                <h6>El aceite de coco es un aceite vegetal, conocido también como manteca de coco. Se trata de una
-                  sustancia grasa que contiene cerca del 90 % de ácidos saturados extraídos mediante prensado de la
-                  pulpa o la carne de los cocos.</h6>
-              </div>
+      <div class="col-lg-4 col-sm-6 ">
+        <div class="portfolio-item">
+          <img class="foto-prod"
+            src="https://e00-telva.uecdn.es/assets/multimedia/imagenes/2019/08/12/15656255518176.jpg" alt="" />
+          <div class="portfolio-overlay">
+            <div>
+              <h3 class="tit-productos">Coco</h3>
+              <h6>El aceite de coco es un aceite vegetal, conocido también como manteca de coco. Se trata de una
+                sustancia grasa que contiene cerca del 90 % de ácidos saturados extraídos mediante prensado de la
+                pulpa o la carne de los cocos.</h6>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="col-lg-4 col-sm-6 ">
-          <div class="portfolio-item">
-            <img
-              src="https://media.vogue.mx/photos/5efa845e7e00038f7ed1162e/master/w_3000,h_2000,c_limit/aceite-de-semillas-de-uva--para-la-piel-.jpg"
-              alt="" />
-            <div class="portfolio-overlay">
-              <div>
-                <h3>Uva</h3>
-                <h6>El aceite de pepitas de uva o de semillas de uva es un aceite vegetal procedente de las pepitas del
-                  fruto de la vid, la uva. El proceso de extracción del aceite puede hacerse por dos métodos: uno es
-                  químico y el otro es mediante el prensado en frío de las pepitas.</h6>
-              </div>
+      <div class="col-lg-4 col-sm-6 ">
+        <div class="portfolio-item">
+          <img class="foto-prod"
+            src="https://media.vogue.mx/photos/5efa845e7e00038f7ed1162e/master/w_3000,h_2000,c_limit/aceite-de-semillas-de-uva--para-la-piel-.jpg"
+            alt="" />
+          <div class="portfolio-overlay">
+            <div>
+              <h3 class="tit-productos">Uva</h3>
+              <h6>El aceite de pepitas de uva o de semillas de uva es un aceite vegetal procedente de las pepitas del
+                fruto de la vid, la uva. El proceso de extracción del aceite puede hacerse por dos métodos: uno es
+                químico y el otro es mediante el prensado en frío de las pepitas.</h6>
             </div>
           </div>
         </div>
-
-
-
-
-
-        <div class="col-lg-4 col-sm-6">
-          <div class="portfolio-item">
-            <img src="https://mercadopuntoverde.com/wp-content/uploads/2019/08/aceite-de-mani-1-1024x683.jpg" alt="" />
-            <div class="portfolio-overlay">
-              <div>
-                <h3>Maní</h3>
-                <h6>El aceite de cacahuate, aceite de cacahuete o aceite de maní es un aceite vegetal preparado, ya sea
-                  mediante cocción de los cacahuates o maníes o mediante su extracción en una prensa hidráulica.</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="portfolio-item">
-            <img
-              src="https://cdn2.salud180.com/sites/default/files/styles/medium/public/field/image/2019/04/aceite-aguacate-para-que-sirve.jpg"
-              alt="" />
-            <div class="portfolio-overlay">
-              <div>
-                <h3>Aguacate</h3>
-                <h6>El aceite de aguacate es un aceite comestible extraído de la pulpa de los aguacates, el fruto de la
-                  Persea americana. Se utiliza como aceite comestible tanto crudo como para cocinar, donde se destaca
-                  por su alto punto de humeo.</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="portfolio-item">
-            <img
-              src="https://www.eluniverso.com/resizer/mhs2eTwyaxAUvwXazPV6x3SLV4w=/800x609/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/U6XVEUHK35FUNIJQYFBASUQKVU.jpg"
-              alt="" />
-            <div class="portfolio-overlay">
-              <div>
-                <h3 class="tit-productos">Oliva</h3>
-                <h6>El aceite de oliva es un aceite vegetal de uso principalmente culinario. Se obtiene del fruto del
-                  olivo (Olea europaea), denominado oliva o aceituna.1​ Casi la tercera parte de la pulpa de la aceituna
-                  es aceite.</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </section>
-
-
-    </main>
-
-
-
-    <!--footer-->
-    <footer class="pie">
-      <div class="contacto_div">
-        <h3>Contactanos:</h3>
-        <ul class="contactos">
-          <li>(+54) 1144444444</li>
-          <li>aceites@aceites.com</li>
-          <li>Argentina BS. AS.</li>
-        </ul>
       </div>
 
 
-      <div class="redes">
-        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+
+
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="portfolio-item">
+          <img class="foto-prod"
+            src="https://mercadopuntoverde.com/wp-content/uploads/2019/08/aceite-de-mani-1-1024x683.jpg" alt="" />
+          <div class="portfolio-overlay">
+            <div>
+              <h3 class="tit-productos">Maní</h3>
+              <h6>El aceite de cacahuate, aceite de cacahuete o aceite de maní es un aceite vegetal preparado, ya sea
+                mediante cocción de los cacahuates o maníes o mediante su extracción en una prensa hidráulica.</h6>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
+      <div class="col-lg-4 col-sm-6">
+        <div class="portfolio-item">
+          <img class="foto-prod"
+            src="https://cdn2.salud180.com/sites/default/files/styles/medium/public/field/image/2019/04/aceite-aguacate-para-que-sirve.jpg"
+            alt="" />
+          <div class="portfolio-overlay">
+            <div>
+              <h3 class="tit-productos">Aguacate</h3>
+              <h6>El aceite de aguacate es un aceite comestible extraído de la pulpa de los aguacates, el fruto de la
+                Persea americana. Se utiliza como aceite comestible tanto crudo como para cocinar, donde se destaca
+                por su alto punto de humeo.</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="portfolio-item">
+          <img class="foto-prod"
+            src="https://www.eluniverso.com/resizer/mhs2eTwyaxAUvwXazPV6x3SLV4w=/800x609/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/U6XVEUHK35FUNIJQYFBASUQKVU.jpg"
+            alt="" />
+          <div class="portfolio-overlay">
+            <div>
+              <h3 class="tit-productos">Oliva</h3>
+              <h6>El aceite de oliva es un aceite vegetal de uso principalmente culinario. Se obtiene del fruto del
+                olivo (Olea europaea), denominado oliva o aceituna.1​ Casi la tercera parte de la pulpa de la aceituna
+                es aceite.</h6>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
-    </script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    </section>
 
-  </body>
+
+  </main>
+
+
+
+  <!--footer-->
+  <footer class="pie">
+    <div class="contacto_div">
+      <h3>Contactanos:</h3>
+      <ul class="contactos">
+        <li>(+54) 1144444444</li>
+        <li>aceites@aceites.com</li>
+        <li>Argentina BS. AS.</li>
+      </ul>
+    </div>
+
+
+    <div class="redes">
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+    </div>
+  </footer>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+  </script>
+  <script src="js/bootstrap.bundle.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+</body>
 
 </html>
