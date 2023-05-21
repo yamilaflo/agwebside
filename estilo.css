@@ -194,6 +194,7 @@ p {
   height: 100vh;
   display: flex;
   justify-items: center;
+  justify-content: spa;
 }
 
 
@@ -215,7 +216,7 @@ p {
   height: 80vh;
   width: 90vh;
   display: flex;
-  margin-left: 200px;
+  margin-left: 21vw;
   align-items: center;
   gap: 70px;
 }
@@ -223,7 +224,7 @@ p {
   height: 80vh;
   width: 90vh;
   display: flex;
-  margin-left: 200px;
+  margin-left: 21vw;
   align-items: center;
   gap: 70px;
 }
@@ -231,17 +232,26 @@ p {
   height: 80vh;
   width: 90vh;
   display: flex;
-  margin-left: 200px;
+  margin-left: 21vw;
   align-items: center;
   gap: 70px;
-  
+
 }
-hr {
-  background-color: #565656;
-  width: 60%;
-  margin-left: 2rem;
-  
+/* .hr-1 {
+  color: #565656;
+  margin-left: 50%;
+  margin-right: 0%;
 }
+.hr-2 {
+  color: #565656;
+  width: 700px;
+  margin-right: 40px;
+}
+.hr-3 {
+  color: #565656;
+  margin-left: 50%;
+  margin-right: 0%;
+} */
 
 /*FOOTER*/
 
