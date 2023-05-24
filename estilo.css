@@ -194,7 +194,7 @@ p {
   height: 100vh;
   display: flex;
   justify-items: center;
-  justify-content: spa;
+ 
 }
 
 
@@ -270,6 +270,10 @@ footer a {
   margin: 5px;
   font-size: 26px;
 }
+.derechos {
+  text-align: start;
+  margin-top: 30px;
+}
 
 
 /** CONTACTO **/
@@ -296,7 +300,10 @@ footer a {
   
 }
 textarea {
-  background-color: #efe8e810;
+  background-color: #f0dfdf70;
+}
+.fondo {
+  background-color:#f0dfdf70 ;
 }
 
 #contacto .contenedor-form {
@@ -320,6 +327,7 @@ textarea {
   border: none;
   border: 1px solid #919191;
 }
+
 
 #contacto .contenedor-form .mitad input {
   width: 48%;
@@ -345,7 +353,7 @@ textarea {
 }
 
 #contacto .btn-enviar:hover {
-  background-color: #c27187;
+  background-color: #e3adbb;
   color: #fff;
 }
 .contactos {
@@ -364,7 +372,7 @@ textarea {
 
 .img-carousel {
   background-position: center center;
-  width: 1200px;
+  width: 1260px;
   /* height: 680px; */
   height: 500px;
   background-size: cover;
