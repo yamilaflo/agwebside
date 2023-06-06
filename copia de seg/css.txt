@@ -1,6 +1,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
 
+
+
 * {
   margin: 0;
   padding: 0;
@@ -512,12 +514,18 @@ gap: 50px;
   }
   .img_aceites {
     width: 500px;
-    height: 450px;
+    height: 300px;
     border-radius: 20px;
   }
   .img-campos {
-
+    width: 180px;
+    height: 200px;
   }
+  .p-campos {
+    font-size: 14px;
+   
+  }
+  
 }
 
 @media (max-width: 321px) {

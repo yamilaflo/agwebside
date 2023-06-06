@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+  }
+
+
+  footer {
+    background-color: rgb(228, 222, 226);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px 0;
+    
+    
+  }
+  
+  footer a {
+    text-decoration: none;
+    background-color:rgb(228, 222, 226);
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin: 5px;
+    font-size: 26px;
+  }
+
+  .pie {
+    font-size: 13px;
+    margin-top: 50px;
+    font-family: 'Cardo', serif;
+    font-weight: 100;
+  }

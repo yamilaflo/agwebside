@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+  }
+
+
+
+
+.foto-prod {
+    width: 80%;
+    
+     
+   }
+    .title-marcas {
+     font-family: 'Cardo', serif;
+     margin-top: 5px;
+     text-transform: capitalize;
+     text-align: center;
+   
+    }
+   
+   
+   .tit-productos {
+     font-family: 'Cardo', serif;
+     font-weight: 100;
+   }
+   
+   .productos-main {
+     font-family: "Lato", sans-serif;
+     margin-top: 150px;
+   }
+   
+   .portfolio-item {
+     overflow: hidden;
+     position: relative;
+     border-radius: 100px;
+     margin: 5vh 5vw;
+   }
+   .portfolio-item img,
+   .portfolio-item .portfolio-overlay {
+     transition: all 0.4s ease ease-in-out;
+   }
+   
+   .portfolio-overlay {
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     background-color: rgba(225, 156, 211, 0.9);
+     display: flex;
+     align-items: flex-end;
+     padding: 30px;
+     opacity: 0;
+   }
+   
+   .portfolio-item img {
+     height: 500px;
+     width: 100%;
+     object-fit: cover;
+     transition: all 0.4s ease;
+     display: flex;
+     flex-flow: column;
+     align-items: flex-end;
+   }
+   
+   .portfolio-overlay h3,
+   .portfolio-overlay h6 {
+     color: #fff;
+     font-weight: 100;
+     letter-spacing: 1px;
+     text-transform: capitalize;
+     font-family: 'Cardo', serif;
+    
+   
+   }
+   
+   .portfolio-item:hover .portfolio-overlay {
+     opacity: 1;
+   }
+   
+   .portfolio-item:hover img {
+     transform: scale(1.1);
+   }
+   

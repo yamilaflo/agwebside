@@ -1,0 +1,21 @@
+.seg_parrafo {
+    text-align: center;
+  }
+  .fonts {
+    color: #383838;
+    font-style: italic;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    line-height: 120%;
+  }
+
+  .sec1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .sec1 h2 {
+    color: darkolivegreen;
+  }
