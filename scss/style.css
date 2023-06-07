@@ -88,12 +88,6 @@ footer a {
   font-family: "Quicksand", sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Quicksand", sans-serif;
-}
-
 .bg-imagen {
   background-image: url(https://img.freepik.com/fotos-premium/cuidado-piel-suero-facial-cosmetico-belleza-frasco-vidrio-pipeta-sobre-fondo-natural-arena-producto-cuidado-piel-seca-aceite-esencial-hidratar-piel-cuerpo-copie-espacio_97916-1217.jpg);
   background-repeat: no-repeat;
@@ -186,16 +180,6 @@ textarea {
   margin: 0;
   padding: 0;
   font-family: "Quicksand", sans-serif;
-}
-
-.sec1 {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.sec1 h2 {
-  color: darkolivegreen;
 }
 
 #sobremi {
@@ -511,15 +495,6 @@ p {
   /* margin-bottom: 50px; */
 }
 
-.fonts {
-  color: #383838;
-  font-style: italic;
-  margin-top: 40px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  line-height: 120%;
-}
-
 @media (max-width: 769px) {
   .fonts {
     font-size: 25px;
@@ -529,7 +504,7 @@ p {
     font-size: 25px;
   }
   .img_aceites {
-    width: 500px;
+    width: 300px;
     height: 300px;
     border-radius: 20px;
   }
@@ -541,7 +516,7 @@ p {
     font-size: 14px;
   }
 }
-@media (max-width: 321px) {
+@media (max-width: 391px) {
   .fonts {
     font-size: 15px;
     text-align: center;
@@ -554,15 +529,60 @@ p {
     font-size: 10px;
     text-align: center;
   }
+  .img_container {
+    width: 300px;
+    margin-left: 50px;
+  }
+  .img_aceites {
+    width: 100%;
+    height: 200px;
+    margin-left: 5px;
+  }
   .lorem {
     font-size: 15px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-left: 50px;
+    height: auto;
+  }
+  .container-campos-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-campos-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-campos-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .p-campos {
+    width: 100%;
+    height: auto;
   }
 }
 .seg_parrafo {
   text-align: center;
+}
+
+.fonts {
+  color: #383838;
+  font-style: italic;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  line-height: 120%;
+}
+
+.sec1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sec1 h2 {
+  color: darkolivegreen;
 }
 
 .derechos {
