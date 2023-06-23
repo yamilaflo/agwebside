@@ -1,8 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap%22");
 * {
   margin: 0;
   padding: 0;
-  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+  font-family: "quicksand", sans-serif;
+}
+
+.img-carousel {
+  background-position: center center;
+  background-image: url("https://grefusa.com/wp-content/uploads/2020/05/381.jpg");
+  width: 1260px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 50px;
 }
 
 footer {
@@ -26,66 +36,6 @@ footer a {
   margin-top: 50px;
   font-family: "Cardo", serif;
   font-weight: 100;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Quicksand", sans-serif;
-}
-
-#inicio {
-  background-color: white;
-  position: fixed;
-  width: 100%;
-  z-index: 100;
-  top: 0;
-}
-
-.contenido-header {
-  max-width: 1100px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-}
-
-.contenido-header nav ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
-
-.contenido-header nav ul li a {
-  text-decoration: none;
-  color: black;
-  margin: 0 12px;
-  font-weight: 400;
-  transition: 0.5s;
-}
-
-.contenido-header nav ul li a:hover {
-  color: #ff5080;
-}
-
-.contenido-header .redes a {
-  text-decoration: none;
-  color: #111135;
-  display: inline-block;
-  margin-left: 10px;
-  transition: 0.5s;
-}
-
-.navbar-white {
-  background-color: #ffffff !important;
-  border-bottom: 1px solid #F8F9FA;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Quicksand", sans-serif;
 }
 
 .bg-imagen {
@@ -176,10 +126,186 @@ textarea {
   justify-content: center;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Quicksand", sans-serif;
+#inicio {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+}
+
+.contenido-header {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.contenido-header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.contenido-header nav ul li a {
+  text-decoration: none;
+  color: black;
+  margin: 0 12px;
+  font-weight: 400;
+  transition: 0.5s;
+}
+
+.contenido-header nav ul li a:hover {
+  color: #ff5080;
+}
+
+.contenido-header .redes a {
+  text-decoration: none;
+  color: #111135;
+  display: inline-block;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+
+.navbar-white {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #F8F9FA;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.seg_parrafo {
+  text-align: center;
+}
+
+.fonts {
+  color: #383838;
+  font-style: italic;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  line-height: 120%;
+}
+
+.sec1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sec1 h2 {
+  color: darkolivegreen;
+}
+
+.text_img {
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+
+.text_img1 {
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+
+.img_aceites {
+  display: block;
+  margin: auto;
+  height: 1000;
+  width: 1000px;
+  border-radius: 5%;
+  margin-top: 130px;
+}
+
+.lorem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin: 50px auto;
+  width: 1090px;
+  max-width: 100%;
+  gap: 50px;
+  /* margin-bottom: 50px; */
+}
+
+.foto-prod {
+  width: 80%;
+}
+
+.title-marcas {
+  font-family: "Cardo", serif;
+  margin-top: 5px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.tit-productos {
+  font-family: "Cardo", serif;
+  font-weight: 100;
+}
+
+.productos-main {
+  font-family: "Lato", sans-serif;
+  margin-top: 150px;
+}
+
+.portfolio-item {
+  overflow: hidden;
+  position: relative;
+  border-radius: 100px;
+  margin: 5vh 5vw;
+}
+
+.portfolio-item img,
+.portfolio-item .portfolio-overlay {
+  transition: all 0.4s ease ease-in-out;
+}
+
+.portfolio-overlay {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(225, 156, 211, 0.9);
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+  opacity: 0;
+}
+
+.portfolio-item img {
+  height: 500px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.4s ease;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+}
+
+.portfolio-overlay h3,
+.portfolio-overlay h6 {
+  color: #fff;
+  font-weight: 100;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-family: "Cardo", serif;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+  opacity: 1;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.1);
 }
 
 #sobremi {
@@ -239,12 +365,6 @@ p {
   line-height: 25px;
   color: #565656;
   margin-bottom: 12px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Quicksand", sans-serif;
 }
 
 #sobremi2 {
@@ -333,7 +453,7 @@ p {
   justify-content: space-between;
   text-align: center;
   margin: 50px auto;
-  width: 1090px;
+  width: 100%;
   max-width: 100%;
   gap: 50px;
 }
@@ -344,155 +464,18 @@ p {
   justify-content: space-between;
   text-align: center;
   margin: 50px auto;
-  width: 1090px;
+  width: 100%;
   max-width: 100%;
   gap: 50px;
-}
-
-.container-campos-3 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
-  margin: 50px auto;
-  width: 1090px;
-  max-width: 100%;
-  gap: 50px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Quicksand", sans-serif;
 }
 
 .img-carousel {
   background-position: center center;
+  background-image: url("https://grefusa.com/wp-content/uploads/2020/05/381.jpg");
   width: 1260px;
-  /* height: 680px; */
   height: 500px;
   background-size: cover;
-  margin-top: 200px;
-  margin-bottom: 50px;
-  margin-left: 70px;
-  margin-right: 70px;
   border-radius: 50px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Quicksand", sans-serif;
-}
-
-.foto-prod {
-  width: 80%;
-}
-
-.title-marcas {
-  font-family: "Cardo", serif;
-  margin-top: 5px;
-  text-transform: capitalize;
-  text-align: center;
-}
-
-.tit-productos {
-  font-family: "Cardo", serif;
-  font-weight: 100;
-}
-
-.productos-main {
-  font-family: "Lato", sans-serif;
-  margin-top: 150px;
-}
-
-.portfolio-item {
-  overflow: hidden;
-  position: relative;
-  border-radius: 100px;
-  margin: 5vh 5vw;
-}
-
-.portfolio-item img,
-.portfolio-item .portfolio-overlay {
-  transition: all 0.4s ease ease-in-out;
-}
-
-.portfolio-overlay {
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(225, 156, 211, 0.9);
-  display: flex;
-  align-items: flex-end;
-  padding: 30px;
-  opacity: 0;
-}
-
-.portfolio-item img {
-  height: 500px;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  transition: all 0.4s ease;
-  display: flex;
-  flex-flow: column;
-  align-items: flex-end;
-}
-
-.portfolio-overlay h3,
-.portfolio-overlay h6 {
-  color: #fff;
-  font-weight: 100;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-  font-family: "Cardo", serif;
-}
-
-.portfolio-item:hover .portfolio-overlay {
-  opacity: 1;
-}
-
-.portfolio-item:hover img {
-  transform: scale(1.1);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Quicksand", sans-serif;
-}
-
-.text_img {
-  font-size: 20px;
-  margin-bottom: 60px;
-}
-
-.text_img1 {
-  font-size: 20px;
-  margin-bottom: 60px;
-}
-
-.img_aceites {
-  display: block;
-  margin: auto;
-  height: 1000;
-  width: 1000px;
-  border-radius: 5%;
-  margin-top: 130px;
-}
-
-.lorem {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
-  margin: 50px auto;
-  width: 1090px;
-  max-width: 100%;
-  gap: 50px;
-  /* margin-bottom: 50px; */
 }
 
 @media (max-width: 769px) {
@@ -517,6 +500,9 @@ p {
   }
 }
 @media (max-width: 391px) {
+  .contenedor-1 {
+    max-width: 80%;
+  }
   .fonts {
     font-size: 15px;
     text-align: center;
@@ -531,7 +517,6 @@ p {
   }
   .img_container {
     width: 300px;
-    margin-left: 50px;
   }
   .img_aceites {
     width: 100%;
@@ -553,38 +538,11 @@ p {
     display: flex;
     flex-direction: column;
   }
-  .container-campos-3 {
-    display: flex;
-    flex-direction: column;
-  }
   .p-campos {
     width: 100%;
     height: auto;
   }
 }
-.seg_parrafo {
-  text-align: center;
-}
-
-.fonts {
-  color: #383838;
-  font-style: italic;
-  margin-top: 40px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  line-height: 120%;
-}
-
-.sec1 {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.sec1 h2 {
-  color: darkolivegreen;
-}
-
 .derechos {
   margin-top: 30px;
 }/*# sourceMappingURL=style.css.map */
